@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
@@ -10,7 +10,12 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [
     RouterOutlet, 
-    LandingPageComponent,],
+    LandingPageComponent,
+    CommonModule,
+    RouterOutlet,
+    RouterLink,
+    RouterLinkActive,
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
