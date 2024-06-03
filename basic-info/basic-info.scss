@@ -180,7 +180,7 @@
     }
     
 :root {
-    --main-color: rgb(255, 136, 0);
+    --main-color: rgb(255, 34, 26);
     --secondary-color: rgb(255, 188, 45);
     --third-color: rgb(255, 204, 62);
     --white-color: rgb(244, 244, 244);
@@ -202,7 +202,7 @@ p {
 }
 
 .headerContainer {
-    height: 300px;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -291,5 +291,26 @@ p {
   border-radius: 15px;
   padding: 15px;
   margin: 40px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  .img {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 4px 8px var(--main-color);
+  }
+}
+
+.montserrat-extrabold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.marginBro {
+  margin-bottom: 10px;
 }
 

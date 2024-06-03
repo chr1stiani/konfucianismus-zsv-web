@@ -177,7 +177,7 @@
 }
 
 :root {
-  --main-color: rgb(255, 136, 0);
+  --main-color: rgb(255, 34, 26);
   --secondary-color: rgb(255, 188, 45);
   --third-color: rgb(255, 204, 62);
   --white-color: rgb(244, 244, 244);
@@ -269,6 +269,10 @@ p {
   border-radius: 20px;
   padding: 15px;
   margin-right: 40px;
+}
+
+.marginContainer {
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=history.css.map */

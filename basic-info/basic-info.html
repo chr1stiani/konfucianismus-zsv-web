@@ -7,39 +7,52 @@
     <link rel="stylesheet" href="/basic-info/basic-info.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>
+        .animated-line {
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, blue, white, blue);
+            background-size: 200%;
+            animation: slide 5s infinite linear;
+            margin-bottom: 10px;
+        }
+
+        @keyframes slide {
+            0% { background-position: 0%; }
+            100% { background-position: 200%; }
+        }
+    </style>
 </head>
 <body>
     <div class="siteContainer">
         <div class="fullWidthContainer">
             <div class="container headerContainer">
-                <p class="montserrat-alternates-extrabold chunky">Konfucianismus</p>
+                <p class="montserrat-alternates-extrabold chunky">Severní korea</p>
                 <p class="montserrat-semibold notChunky">Základní informace</p>
             </div>
         </div>
         <div class="doubleContainer container">
             <div class="firstContainer">
                 <div class="firstSpecialContainer">
-                    <p class="montserrat-extrabold firstContainerText">Co to vlastně je?</p>
-                    <p class="montserrat-alternates-light">Konfucianismus je čínský filozofický směr , který vychází z učení čínského mudrce Konfucia.</p>
-                    <p class="montserrat-alternates-light">Morální kodex tohoto náboženství je humanita, etika a láska.</p>
-                    <p class="montserrat-alternates-light">Panovník má za úkol vládnout tak, aby se lidu jeho země vedlo dobře, a lid má povinnost panovníka ctít. </p>
-                    <p class="montserrat-alternates-light">Zpronevěří-li se však panovník svému poslání, má lid právo panovníka svrhnout.                </p>
-                    <p class="montserrat-alternates-light">Po mistrově smrti se učení ujali žáci, kteří Konfuciovy výpovědi shrnuli do knihy zvané Hovory. 
-                    </p>
-                    <br>
+                    <p class="montserrat-extrabold firstContainerText">Co se v dnešní prezentaci dozvíme?</p>
+                    <p class="montserrat-alternates-light">Severní Korea, oficiálně známá jako Korejská lidově demokratická republika (KLDR), je zemí, která svou fascinující a zároveň kontroverzní povahou přitahuje pozornost celého světa. Nachází se na Korejském poloostrově ve vchodní Asii a je známá svm unikátním politickm a společenskm systémem. Tento vodní přehled nabízí základní informace o zemi, které budou podrobněji rozvinuty v následujících sekcích. Prozkoumáme historický vývoj Severní Koreje, její politické struktury, ekonomické podmínky, kulturní aspekty a mezinárodní vztahy.</p>
+                    <!--
                     <audio id="myAudio" controls>
                         <source src="./assets/Uvod.mp3" type="audio/mpeg">Your browser does not support the audio tag.
                     </audio>             
+                    -->
     
                 </div>
                 <br>
                 <div class="secondSpecialContainer">
-                    <p class="montserrat-extrabold firstContainerText">Co to jsou hovory?</p>
-                    <p class="montserrat-alternates-light">Hovory se skládají z 20 kapitol rozdělených na 49 částí.</p>
-                    <p class="montserrat-alternates-light">Bylo nutno je umět nazpaměť.</p>
-                    <p class="montserrat-alternates-light">Zpětně se k nim vracelo, aby se lidi poučili a objevili zkušenosti.</p>
-                    <p class="montserrat-alternates-light">Druhým nejvýznamnějším konfuciánským filozofem je Mencius.</p>
-                    <br>
+                    <p class="montserrat-extrabold firstContainerText">Geografie</p>
+                    <p class="montserrat-alternates-light">Severní Korea, oficiálně Korejská lidově demokratická republika (KLDR), se nachází na severní části Korejského poloostrova ve východní Asii. Je obklopena Čínou na severozápadě, Ruskem na severovýchodě a Jižní Koreou na jihu. Na východě hraničí se Žlutým mořem a na západě s Japonským mořem.
+                    <div class="img-container">
+                        <img class="img" src="./assets/ThisIsFine_northKoreaMap.png" alt="" srcset="">
+                    </div>
+                    </p>
+                    <!--
+                                           <br>
                     <p class="montserrat-extrabold firstContainerText">Jaké byly klíčové prvky hovorů?</p>
                     <p class="coloredText montserrat-extrabold">1. Ren</p>
                     <p class="montserrat-alternates-light">- "člověčnost" nebo "lidskost". Základní myšlenka je v soucitu, respektu a péči o druhé.</p>
@@ -55,59 +68,138 @@
                     <p class="montserrat-alternates-light">-  "vznešený člověk" nebo "džentlmen". Junzi je ideál konfuciánského učení - člověk, který se řídí principy etiky, a tím přispívá k harmonii ve společnosti.</p>
                     <br>
                     <p class="coloredText montserrat-extrabold">Konfucianismus v minulosti hodně ovlivnil východní asijskou kulturu, v dnešní době není už tak populární, ale stále přetrvává.</p>
+ 
+                    -->
                 </div>
             </div>
             <div class="secondaryContainer">
             </div>
         </div>
         <div class="container headerContainer">
-            <p class="montserrat-alternates-extrabold notSoChunky">Vztahy</p>
-            <p class="montserrat-semibold notChunkyAtAll">Konfuciánská filozofie je založena na mezilidských vztazích</p>
-        </div>
-        <div class="container white centeringContainer">
-            <p class="montserrat-alternates-bold">-	vztah otce a syna,            </p>
-            <p class="montserrat-alternates-bold">-	vztah staršího a mladšího bratra,
-            </p>
-            <p class="montserrat-alternates-bold">-	vztah manžela a manželky,
-            </p>
-            <p class="montserrat-alternates-bold">-	vztah panovníka a poddaného,
-            </p>
-            <p class="montserrat-alternates-bold">-	vztah panovníka a poddaného,
-            </p>
-        </div>
-
-        <!--copy paste -->
-        <div class="container blud">
-            <div class="container headerContainer2">
-                <p class="montserrat-alternates-extrabold notSoChunky">Rodina</p>
-            </div>
-            <div class="container white">
-                <p class="montserrat-alternates-light">Rodina byla nejhlavnější mezilidský vztah, Konfucius ji považoval za nejdůležitější součást společnosti.
-                    tímto ovlivnil mnoho lidí a proto se dodržuje dodnes poslušnost vůči otci, jako hlavě rodiny.
-                    pořád platí dominance mužů nad ženami.
-                    žena může získat vůdčí pozici pouze když má dceru nebo snachu.
-                    v Číně jsou velmi zásadní rituály, které se provádí pro ducha zemřelého.
-                    tyto posmrtné rituály může provádět pouze syn.
-                    </p>
-            </div>
-        </div>
-        <!--copy paste -->
-        <div class="container headerContainer">
-            <p class="montserrat-alternates-extrabold notSoChunky">Výchova a <span class="coloredText">zvyky</span></p>
+            <p class="montserrat-alternates-extrabold notSoChunky">Obyvatelstvo</p>
+            <p class="montserrat-semibold notChunkyAtAll">Jak je na tom Severní Korea se zalidněností?</p>
         </div>
         <div class="container white">
-            <p class="montserrat-alternates-light endContainer">Výchova dětí se dělí podle pohlaví.
-                chlapci se učili psát, počítat a recitovat Hovory.
-                dívky se učili domácím pracím a čtení.
-                tento přístup byl zrušen a dnes jsou děti vychováni bez ohledu na pohlaví.
-                během 15 - 20 roku, se chlapci a dívky museli zasnoubit.
-                snoubenec ani snoubenka neměli právo na výběr manžela / manželky - ty vybírali rodiče.
-                pokud zemřel člen rodiny, všichni příbuzní se museli sjednotit, truchlit a nosit speciální šaty po dobu tří let.
-                většina těchto zvyků existovala před Konfuciem, ten je jen popsal a kanonizoval.
-            </p>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Počet obyvatel:</span> Přibližně 26 milionů lidí (odhad z roku 2023)</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Hustota zalidnění:</span> Přibližně 213 obyvatel na km² </p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Jazyk: </span> Oficiálním jazykem je korejština</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Městská populace:</span> Přibližně 60% obyvatel žije ve městech</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Hlavní město:</span> Pchjongjang, kde žije více než 3 miliony obyvatel</p>
+            <br>
+            <p class="montserrat-extrabold firstContainerText">Útěky ze Severní Koreje</p>
+            <div class="animated-line"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Počet uprchlíků:</span> Od konce Korejské války uprchlo do Jižní Koreje přes 33 000 Severokorejců.</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Trendy v počtech uprchlíků:</span> Počet uprchlíků se v posledních letech snížil kvůli zpřísnění hraničních kontrol a mezinárodních opatření.</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Cílové země:</span> Nejvíce uprchlíků směřuje do Jižní Koreje, další časté cíle jsou Čína, Thajsko a další země jihovýchodní Asie.</p>
+            <div class="marginBro"></div>
+            <br>
+            <p class="montserrat-extrabold firstContainerText">Sociální Ukazatele</p>
+            <div class="animated-line"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Střední délka života:</span> Přibližně 72 let.</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Dětská úmrtnost:</span> Přibližně 22 úmrtí na 1 000 živě narozených dětí.</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Gramotnost:</span> Téměř 100% gramotnost, přičemž vzdělání je povinné a státem zajišťované.</p>
+            <div class="marginBro"></div>
+            <br>
+            <p class="montserrat-extrabold firstContainerText">Zdraví a Životní Podmínky</p>
+            <div class="animated-line"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Přístup ke zdravotní péči:</span> Všichni občané mají přístup k bezplatné zdravotní péči, avšak kvalita a dostupnost služeb jsou značně omezené.</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Životní podmínky:</span> Většina obyvatel žije ve skromných podmínkách, s omezeným přístupem k čisté vodě a základním potřebám.</p>
+            <div class="marginBro"></div>
+            <br>
+            <p class="montserrat-extrabold firstContainerText">Ekonomické Podmínky</p>
+            <div class="animated-line"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Pracovní síla:</span> Přibližně 14 milionů lidí, většina pracuje v zemědělství, průmyslu a armádě.</p>
+            <div class="marginBro"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Příjmy:</span> Průměrné příjmy jsou velmi nízké a mnoho obyvatel se potýká s chudobou.</p>
+            <div class="marginBro"></div>
+            <br>
+            <p class="montserrat-extrabold firstContainerText">Náboženství</p>
+            <div class="animated-line"></div>
+            <p class="montserrat-alternates-bold"><span class="coloredText">Oficiální náboženství:</span> Stát se prohlašuje za ateistický, ale existuje vliv tradičních korejských náboženství, buddhismu a křesťanství, které jsou však silně omezovány státem.</p>
+            <div class="marginBro"></div>
         </div>
 
-
+        <!--copy paste -->
+        <br>
+        <br>
+        <br>
+        <p class="montserrat-alternates-extrabold notSoChunky centeringContainer container" style="color: white;">Politický Systém Severní Koreje</p>
+        <div class="container blud">
+            <div class="container headerContainer2">
+                <p class="montserrat-alternates-extrabold notSoChunky">Struktura Vlády</p>
+            </div>
+            <div class="container white">
+                <p class="montserrat-alternates-light">Jednopartijní Systém: Severní Korea je totalitní jednopartijní stát, kde veškerou politickou moc drží Korejská strana práce (KSP). KSP je jedinou legální politickou stranou a všechny ostatní politické aktivity jsou zakázány.</p>
+                <p class="montserrat-alternates-light">Vedoucí Strana: Korejská strana práce dominuje všem aspektům veřejného a soukromého života. Má pevnou kontrolu nad vládními institucemi, armádou, policií a médií.</p>
+            </div>
+        </div>
+        <div class="container blud">
+            <div class="container headerContainer2">
+                <p class="montserrat-alternates-extrabold notSoChunky">Vůdcovský Kult</p>
+            </div>
+            <div class="container white">
+                <p class="montserrat-alternates-light">Dědičná Diktatura: Od založení KLDR byla země vedena dynastií Kimů. První vůdce, Kim Ir-sen, vládl od roku 1948 až do své smrti v roce 1994. Po něm převzal moc jeho syn Kim Čong-il, který vládl až do své smrti v roce 2011. Nyní vládne jeho syn Kim Čong-un.</p>
+                <p class="montserrat-alternates-light">Osobnostní Kult: Kimové jsou oslavováni jako božské postavy a jejich portréty a sochy jsou rozšířeny po celé zemi. Propaganda neustále zdůrazňuje jejich neomylnost a genialitu.</p>
+            </div>
+        </div>
+        <div class="container blud">
+            <div class="container headerContainer2">
+                <p class="montserrat-alternates-extrabold notSoChunky">Instituce a Orgány</p>
+            </div>
+            <div class="container white">
+                <p class="montserrat-alternates-light">Nejvyšší Lidové Shromáždění (NLS): Formálně nejvyšší legislativní orgán. Skládá se z jedné komory a jeho členové jsou voleni na pětileté období. V praxi však NLS slouží spíše jako razítko pro rozhodnutí strany a vůdce.</p>
+                <p class="montserrat-alternates-light">Státní Rada: Nejvyšší rozhodovací orgán v zemi, v čele s Kim Čong-unem. Státní rada má pravomoc nad všemi vládními politikami a rozhodnutími.</p>
+                <p class="montserrat-alternates-light">Kabinet: Vykonává správní funkce státu. Jeho členové jsou jmenováni Nejvyšším Lidovým Shromážděním, ale skutečnou moc má opět vůdce a strana.</p>
+            </div>
+        </div>
+        <div class="container blud">
+            <div class="container headerContainer2">
+                <p class="montserrat-alternates-extrabold notSoChunky">Bezpečnostní Aparát</p>
+            </div>
+            <div class="container white">
+                <p class="montserrat-alternates-light">Ministerstvo státní bezpečnosti: Hlavní bezpečnostní služba, která se zabývá vnitřními i vnějšími hrozbami. Má rozsáhlé pravomoci v oblasti sledování, zatýkání a výslechu občanů.</p>
+                <p class="montserrat-alternates-light">Veřejná Bezpečnost: Policie zajišťující dodržování zákonů a pořádku, kontrolu nad pohybem obyvatel a monitoring disidentských aktivit.</p>
+            </div>
+        </div>
+        <div class="container blud">
+            <div class="container headerContainer2">
+                <p class="montserrat-alternates-extrabold notSoChunky">Ideologie a Propaganda</p>
+            </div>
+            <div class="container white">
+                <p class="montserrat-alternates-light">Čučche (Juche): Státní ideologie založená na myšlence soběstačnosti a nezávislosti. Zdůrazňuje důležitost národní identity a nezávislosti na cizí pomoci.</p>
+                <p class="montserrat-alternates-light">Songun: Politika upřednostňování armády, která je vnímána jako klíčová složka státu. Armáda má přednostní přístup k zdrojům a rozhodování ve státě.</p>
+                <p class="montserrat-alternates-light">Propaganda: Média jsou státem plně kontrolována a slouží k šíření propagandy. Informace jsou přísně cenzurovány a obyvatelům je poskytováno pouze to, co režim považuje za vhodné.</p>
+            </div>
+        </div>
+        <div class="container blud">
+            <div class="container headerContainer2">
+                <p class="montserrat-alternates-extrabold notSoChunky">Kontrola a Represivní Metody</p>
+            </div>
+            <div class="container white">
+                <p class="montserrat-alternates-light">Cenzura: Přísná kontrola informací, přístup k zahraničním médiím a internetu je zakázán nebo silně omezen.</p>
+                <p class="montserrat-alternates-light">Represe: Tvrdé postihy za jakoukoliv formu nesouhlasu či kritiky režimu, včetně uvěznění, nucených prací nebo i popravy.</p>
+                <p class="montserrat-alternates-light">Systém tříd (Songbun): Společnost je rozdělena do tříd na základě loajality k režimu. Tento systém ovlivňuje přístup ke vzdělání, zaměstnání a dalších příležitostem.</p>
+            </div>
+        </div>
+        <div class="container blud">
+            <div class="container headerContainer2">
+                <p class="montserrat-alternates-extrabold notSoChunky">Mezinárodní Vztahy</p>
+            </div>
+            <div class="container white">
+                <p class="montserrat-alternates-light">Izolacionismus: Politika omezené interakce s vnějším světem, minimalizace vlivu zahraničních zemí a institucí.</p>
+                <p class="montserrat-alternates-light">Sankce a Konflikty: Kvůli svému jadernému programu a porušování lidských práv čelí Severní Korea mnoha mezinárodním sankcím a je často v konfliktu s mezinárodním společenstvím.</p>
+            </div>
+        </div>
+                <!--copy paste -->
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
